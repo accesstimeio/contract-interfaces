@@ -1,29 +1,25 @@
 {
-  "name": "@prb/foundry-template",
-  "description": "Foundry-based template for developing Solidity smart contracts",
+  "name": "@accesstimeio/contract-interfaces",
   "version": "1.0.0",
   "author": {
-    "name": "Paul Razvan Berg",
-    "url": "https://github.com/PaulRBerg"
-  },
-  "dependencies": {
-    "@openzeppelin/contracts": "^5.0.1"
+    "name": "AccessTime",
+    "url": "https://github.com/accesstimeio"
   },
   "devDependencies": {
-    "forge-std": "github:foundry-rs/forge-std#v1.8.1",
     "prettier": "^3.0.0",
     "solhint": "^3.6.2"
   },
+  "description": "Interface contracts of AccessTime project",
+  "repository": "https://github.com/accesstimeio/contract-interfaces",
   "keywords": [
+    "accesstime",
     "blockchain",
     "ethereum",
     "forge",
     "foundry",
     "smart-contracts",
-    "solidity",
-    "template"
+    "solidity"
   ],
-  "private": true,
   "scripts": {
     "clean": "rm -rf cache out",
     "build": "forge build",

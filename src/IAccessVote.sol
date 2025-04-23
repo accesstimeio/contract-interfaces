@@ -16,13 +16,10 @@ interface IAccessVote {
 
     /// @notice Given AccessTime is not deployed
     error InvalidAccessTime();
-
     /// @notice Participant already voted before
     error AlreadyParticipated();
-
     /// @notice Given address is invalid
     error ZeroAddress();
-
     /// @notice Given star is invalid
     error InvalidStar();
 

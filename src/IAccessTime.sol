@@ -156,7 +156,7 @@ interface IAccessTime {
      * @dev Only deployer can toggle module status.
      */
     function togglePackageModule() external;
-    
+
     /**
      * @dev Updates the rate for a payment token.
      * @param paymentToken The address of the payment token.
